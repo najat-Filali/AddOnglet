@@ -1,10 +1,10 @@
 
-//création d'un onglet (objet) selon bean(modele)
+//création d'un onglet (objet) selon bean(modele) tab.js
 const homeTab = new Tab('Accueil'); 
 
 homeTab.link = '/';     
 homeTab.active = true; 
 
-const tabsMainMenu = [ homeTab ]; 
+let tabsMainMenu = [ homeTab ]; 
 
 

@@ -13,5 +13,7 @@ function createMenuHTML(tabs){
              )).join('')}
         </ul>
         `;
+        
     }
+    
 }
