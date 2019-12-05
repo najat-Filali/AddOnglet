@@ -1,8 +1,6 @@
-//functions
 /**
  * cette fonction sert a générer une structure HTML pour un menu. 
- * 
- * @param {string []} tabs Liste des onglets de menu
+ * @param {string[]} tabs Liste des onglets de menu
  */
 function createMenuHTML(tabs){
     if (Array.isArray(tabs)){
@@ -13,7 +11,5 @@ function createMenuHTML(tabs){
              )).join('')}
         </ul>
         `;
-        
     }
-    
 }

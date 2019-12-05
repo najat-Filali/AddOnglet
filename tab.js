@@ -1,6 +1,7 @@
 //creation d'une classe, bean
 
 function Tab(label) {
+    
     this.label =label; 
     this.active = false;  
     this.link = ''; 

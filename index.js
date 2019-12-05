@@ -5,8 +5,8 @@ const mainMenu = document.querySelector('.main-menu');
 const tabsStored = localStorage.getItem('tabs'); 
 
 if (tabsStored){
-    tabsMainMenu = JSON.parse(stock); 
-
+    tabsMainMenu = JSON.parse(tabsStored); 
+}
 
 createMenuHTML(tabsMainMenu); 
 
