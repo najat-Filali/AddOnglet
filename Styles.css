@@ -1,0 +1,30 @@
+/* exemple animation de changement d'opacite du msg qui apparait
+#confirm {
+    opacity: 0;
+    background: gray;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    position: absolute;
+    top : 0; 
+    left: 0;
+    right: 0;   
+    bottom: 0;
+    z-index: -1;
+
+}
+
+#confirm p {
+    margin-top: 50px;
+}
+
+#confirm:target {
+    opacity : 0; 
+    animation: disapears 1s 3s forwards; 
+}
+
+@keyframes disapears {
+    from {opacity : 1; z-index: 1;}
+    to {opacity : 0; z-index: -1;}
+}*/
+
